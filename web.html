@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silly Rick</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="popup1" class="popup" onmouseover="moveAway('popup1')" onmouseleave="moveBack('popup1')">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup('popup1')"> &times; </span>
+      <h2>Downloading malware...</h2>
+      <p>Heres a first test, can you even close this popup before the malware downloads???</p>
+    </div>
+  </div>
+
+  <div id="popup2" class="popup" onmouseover="moveAway('popup2')" onmouseleave="moveBack('popup2')">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup('popup2')"> &times; </span>
+      <h2>Too slow!</h2>
+      <p>Better luck next time</p>
+    </div>
+  </div>
+
+  <h1>Rick you really should know better than to challenge your nephew to hack you...</h1>
+  <!-- Rest of your website content -->
+  
+  <script src="script.js"></script>
+</body>
+</html>
