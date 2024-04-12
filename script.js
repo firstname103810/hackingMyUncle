@@ -3,6 +3,13 @@ document.addEventListener("DOMContentLoaded", function() {
       var popup = document.getElementById("popup1");
       popup.style.display = "block";
     },3000); // Delay in milliseconds (3 seconds in this example)
+
+
+    setTimeout(function() {
+        closePopup("popup1");
+      },15000); // Delay in milliseconds (3 seconds in this example)
+  
+
   });
   
   function closePopup(popupId) {
